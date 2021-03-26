@@ -31,7 +31,7 @@ this part can be tested via: `python eval.py trained_model.pt /home/xsayas@GU.GU
 
 ## Part 3
 
---k 200    --r 100    accuracy: 0.2241483358981322
+```--k 200    --r 100    accuracy: 0.2241483358981322
 --k 400    --r 100    accuracy: 0.14973899399535318
 --k 600    --r 100    accuracy: 0.20538004284722852
 --k 800    --r 100    accuracy: 0.1601943212335174
@@ -41,7 +41,8 @@ this part can be tested via: `python eval.py trained_model.pt /home/xsayas@GU.GU
 --k 200    --r 50     accuracy: 0.15931927220059744
 --k 200    --r 200    accuracy: 0.12704806734860144
 --k 200    --r 300    accuracy: 0.09642135119640324
---k 200    --r 400    accuracy: 0.015992275429226637
+--k 200    --r 400    accuracy: 0.015992275429226637 
+```
 
 The model that had the highest accuracy is the one the used the default parameters i.e. --k 200 and --r 100.
 based on the results, it seems like the accuracy decreased by increasing the number of epochs, that may be due to overfitting that occured when more epochs are iterated through even after convergence.
